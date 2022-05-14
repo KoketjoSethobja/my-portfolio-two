@@ -1,18 +1,22 @@
 import './App.css';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Certificates from './components/Certificates';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 	return (
-		<div className="App">
-			<h1>Hello</h1>
-			<h2>Hello</h2>
-			<h3>Hello</h3>
-			<h4>Hello</h4>
-			<h5>Hello</h5>
-			<h6>Hello</h6>
-
-			<p>Hello</p>
-
-			<a href="">Hello</a>
+		<div className="pre-container">
+			<Navbar />
+			<Home />			
+			<Skills />
+			<Projects />	
+			<Certificates />
+			<About />
+			<Contact />				
 		</div>
 	);
 }
