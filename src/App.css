@@ -111,9 +111,6 @@ a { font-size: 1.8rem; cursor: pointer; }
 .navigation-menu ul li a:hover::before {
 	transform: scale(1, 1);
 }
-.navigation-menu ul li a:active {
-	color: red;
-}
 .hamburger {
 	display: none;
 }
